@@ -9,10 +9,10 @@
 			src: url('digital-7_mono.ttf') format("truetype");
 		}
 	</style>
-	<link href="css/default.css" type="text/css" rel="stylesheet">
+	<link href="css/default_dev.css" type="text/css" rel="stylesheet">
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/garden.js"></script>
-    <script type="text/javascript" src="js/functions.js"></script>
+    <script type="text/javascript" src="js/functions_dev.js"></script>
 </head>
 
 <body>
@@ -20,12 +20,14 @@
 		<div id="content">
 			<div id="code">
 				<span class="comments">/**</span><br />
-				<span class="space"/><span class="comments">* We are both Fudan SSers and programmers,</span><br />
-				<span class="space"/><span class="comments">* so I write some code to celebrate our 1st anniversary.</span><br />
+				<span class="space"/><span class="comments">* Because I'm a programmer,</span><br />
+				<span class="space"/><span class="comments">* so I write some code to celebrate your birthday.</span><br />
 				<span class="space"/><span class="comments">*/</span><br />
-				Boy i = <span class="keyword">new</span> Boy(<span class="string">"hackerzhou"</span>);<br />
-				Girl u = <span class="keyword">new</span> Girl(<span class="string">"MaryNee"</span>);<br />
-				<span class="comments">// Nov 2, 2010, I told you I love you. </span><br />
+				Boy i = <span class="keyword">new</span> Boy(<span class="string">"TianZiyao"</span>);<br />
+				Girl u = <span class="keyword">new</span> Girl(<span class="string">"ZhaoQianqian"</span>);<br />
+				<span class="comments">// Feb 24, 2019, That is the first time I see you.					. </span><br />
+				i.see(u);<br />
+				<span class="comments">// Mar 26, 2019, I told you I love you. </span><br />
 				i.love(u);<br />
 				<span class="comments">// Luckily, you accepted and became my girlfriend eversince.</span><br />
 				u.accepted();<br />
@@ -33,7 +35,7 @@
 				i.miss(u);<br />
 				<span class="comments">// And take care of u and our love.</span><br />
 				i.takeCareOf(u);<br />
-				<span class="comments">// You say that you won't be so easy to marry me.</span><br />
+				<span class="comments">// You say you may not believe in love.</span><br />
 				<span class="comments">// So I keep waiting and I have confidence that you will.</span><br />
 				<span class="keyword">boolean</span> isHesitate = <span class="keyword">true</span>;<br />
 				<span class="keyword">while</span> (isHesitate) {<br />
@@ -50,28 +52,28 @@
 				<canvas id="garden"></canvas>
 				<div id="words">
 					<div id="messages">
-						Minyue, I have fallen in love with you for
+						ZhaoQianqian, I have fallen in love with you for
 						<div id="elapseClock"></div>
 					</div>
 					<div id="loveu">
 						Love u forever and ever.<br/>
-						<div class="signature">- hackerzhou</div>
+						<div class="signature">- TianZiyao</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div id="copyright">
+		<!-- <div id="copyright">
 			Inspired by <a href="http://www.openrise.com/lab/FlowerPower/">FlowerPower</a> project.<br />
 			Copyright © 2011 <a href='http://hackerzhou.me'>hackerzhou.me</a> 2009-2011
-		</div>
+		</div> -->
 	</div>
 	<script type="text/javascript">
 		var offsetX = $("#loveHeart").width() / 2;
 		var offsetY = $("#loveHeart").height() / 2 - 55;
 		var together = new Date();
-		together.setFullYear(2010, 10, 2);
+		together.setFullYear(2019, 1, 24);
 		together.setHours(20);
-		together.setMinutes(0);
+		together.setMinutes(22);
 		together.setSeconds(0);
 		together.setMilliseconds(0);
 		

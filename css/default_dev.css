@@ -32,7 +32,7 @@ body {
 #words {
 	font-family: "sans-serif";
 	width: 500px;
-	font-size: 24px;
+	font-size: 20px;
 	color:#666;
 }
 
@@ -47,7 +47,7 @@ body {
 
 #loveu{
 	padding: 5px;
-	font-size: 22px;
+	font-size: 20px;
 	margin-top: 80px;
 	margin-right: 120px;
 	text-align: right;
